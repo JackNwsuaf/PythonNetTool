@@ -41,7 +41,7 @@ def main():
     if not len(sys.argv[1:]):
         usage()
 
-    # read cmoonad
+    # read commanad
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hle:t:p:cu",
                                    ["help", "listen", "port", "command", "upload"])  # longopts without "="?!
